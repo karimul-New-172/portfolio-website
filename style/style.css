@@ -1,20 +1,113 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.open-sans-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+/* Utilities */
+.btn-primary {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 12px 25px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
 
-header{
+.color-primary {
+    color: #FD6E0A;
+}
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
     background-color: #FFF8F3;
-    background: url('../images/developer.png') left no-repeat,
-    url('../images/header_bg.png') right bottom no-repeat;
+    background: url('../images/developer.png') left top no-repeat,
+        url('../images/header_bg.png') right bottom no-repeat, #FFF8F3;
     /* height: 500px; */
+}
+
+/* navbar style */
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 51px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #474747;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #FD6E0A;
+}
+
+nav button:hover {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/* banner section style */
+#banner {
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-img img {
+    width: 584px;
+    vertical-align: middle;
 }
