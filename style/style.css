@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 /* Utilities */
 .btn-primary {
     text-transform: capitalize;
@@ -26,18 +35,8 @@
     color: #FD6E0A;
 }
 
-.open-sans-font {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
-
 .section-heading {
     width: 827px;
-    text-align: center;
     margin: 0 auto;
 }
 
